@@ -4,13 +4,11 @@ int main(){
 
 using namespace std;
 
-    string nome = "Eduardo";
-    string sobrenome = "Barreto";
-
-    //O comentário é uma boa prática!
-    cout<<"Meu nome é: " + nome + " " + sobrenome;
-    cout<<"\nObrigado!";
-    //"\n"
+    //vamos agora usar variáveis de números
+    int a = 5;
+    int b = 5;
+    int soma = a + b;
+    cout<<soma;
 
     return 0;
 }
