@@ -2,11 +2,11 @@
 
 int main(){
 
-    int a = 4;
-    int b = 2;
-    int soma = a + b;
+using namespace std;
 
-    std::cout<<soma<<std::endl;
+    //comentário
+    cout<<"O comentário não será lido pelo compilador!";
+    //Outro comentário
 
     return 0;
 }
