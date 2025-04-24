@@ -4,8 +4,10 @@ int main(){
 
 using namespace std;
 
+    string nome = "Eduardo";
+
     //O comentário é uma boa prática!
-    cout<<"Meu nome é: ";
+    cout<<"Meu nome é: " + nome;
 
     return 0;
 }
