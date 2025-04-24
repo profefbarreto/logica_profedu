@@ -8,6 +8,7 @@ using namespace std;
 
     //O comentário é uma boa prática!
     cout<<"Meu nome é: " + nome;
+    cout<<"\nObrigado!";
 
     return 0;
 }
