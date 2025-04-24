@@ -4,10 +4,10 @@ int main(){
 
 using namespace std;
 
-    //vamos agora usar variáveis de números
-    int a = 5;
-    int b = 5;
-    int soma = a + b;
+    float a = 4.5;
+    double b = 1.2;
+    float soma = a + b;
+
     cout<<soma;
 
     return 0;
