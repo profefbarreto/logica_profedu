@@ -4,9 +4,8 @@ int main(){
 
 using namespace std;
 
-    //comentário
-    cout<<"O comentário não será lido pelo compilador!";
-    //Outro comentário
+    //O comentário é uma boa prática!
+    cout<<"Meu nome é: ";
 
     return 0;
 }
