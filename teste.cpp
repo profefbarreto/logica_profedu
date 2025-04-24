@@ -2,7 +2,8 @@
 
 int main(){
 
-    std::cout<<"Olá mundo!"<<std::endl;
+using namespace std;
+    cout<<"Olá mundo";
 
     return 0;
 }
