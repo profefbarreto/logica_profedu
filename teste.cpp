@@ -4,11 +4,10 @@ int main(){
 
 using namespace std;
 
-    float a = 4.5;
-    double b = 1.2;
-    float soma = a + b;
-
-    cout<<soma;
+    char a = 'a';
+    char b = 'b';
+    cout<<a;
+    cout<<"\n"<<b;
 
     return 0;
 }
