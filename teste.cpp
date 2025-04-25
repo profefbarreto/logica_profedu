@@ -4,13 +4,17 @@ int main(){
 
 using namespace std;
 
-    //entrada de dados do usuário
+    string nome;
     int idade;
 
-    cout<<"Qual a sua idade? ";
+    cout<<"Qual seu nome: ";
+    cin>>nome;
+
+    cout<<"Qual sua idade: ";
     cin>>idade;
 
-    cout<<"A idade é "<<idade;
+    cout<<nome<<" tem "<<idade<<" anos.";
+    cout<<"\n";
 
 
     return 0;
