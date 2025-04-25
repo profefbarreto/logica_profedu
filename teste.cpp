@@ -4,13 +4,13 @@ int main(){
 
 using namespace std;
 
-    int a = 4;
-    int b = 2;
-    int soma;
+    //entrada de dados do usuário
+    int idade;
 
-    soma = (a + b)*2;
+    cout<<"Qual a sua idade? ";
+    cin>>idade;
 
-    cout<<soma;
+    cout<<"A idade é "<<idade;
 
 
     return 0;
