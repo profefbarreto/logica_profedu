@@ -4,12 +4,12 @@ int main(){
 
 using namespace std;
 
-    int a = 3;
-    int b = 2;
+    double a = 3;
+    double b = 2;
     int soma;
     int subt;
     int mult;
-    int div;
+    double div;
 
     soma = a + b;
     subt = a - b;
@@ -20,6 +20,7 @@ using namespace std;
     cout<<"\n"<<subt;
     cout<<"\n"<<mult;
     cout<<"\n"<<div;
+    cout<<"\n";
 
 
     return 0;
