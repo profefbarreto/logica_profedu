@@ -4,10 +4,10 @@ int main(){
 
 using namespace std;
 
-    char a = 'a';
-    char b = 'b';
-    cout<<a;
-    cout<<"\n"<<b;
+    char a = 'E';
+    char b = 'd';
+    char c = 'u';
+    cout<<a+b+c;
 
     return 0;
 }
