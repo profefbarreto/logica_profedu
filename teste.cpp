@@ -4,7 +4,12 @@ int main(){
 
 using namespace std;
 
-    cout<<3+4;
+    const int minutosPorHora = 60;
+    int horas = 4;
+
+    int resultado = horas * minutosPorHora;
+
+    cout<<resultado<<" minutos.";
 
 
     return 0;
