@@ -4,12 +4,9 @@ int main(){
 
 using namespace std;
 
-    const int anoDeNascimento = 1987;
-    int anoAtual = 2025;
+    int x = 100 + 50;
 
-    int anos = anoAtual - anoDeNascimento;
-
-    cout<<anos<<"\n";
+    cout<<x<<"\n";
 
 
     return 0;
