@@ -4,10 +4,10 @@ int main(){
 
 using namespace std;
 
-    int x = 10;
-    x += 5;
+    int x = 5;
+    int y = 3;
 
-    cout<<x<<"\n";
+    cout<<(x > y)<<"\n";
 
 
     return 0;
