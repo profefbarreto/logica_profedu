@@ -4,12 +4,12 @@ int main(){
 
 using namespace std;
 
-    const int minutosPorHora = 60;
-    int horas = 4;
+    const int anoDeNascimento = 1987;
+    int anoAtual = 2025;
 
-    int resultado = horas * minutosPorHora;
+    int anos = anoAtual - anoDeNascimento;
 
-    cout<<resultado<<" minutos.";
+    cout<<anos<<"\n";
 
 
     return 0;
