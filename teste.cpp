@@ -4,9 +4,10 @@ int main(){
 
 using namespace std;
 
-    int x = 5;
-    int y = 4;
-    cout<<x % y<<"\n";
+    int x = 10;
+    x += 5;
+
+    cout<<x<<"\n";
 
 
     return 0;
