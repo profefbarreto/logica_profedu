@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/EDUARDOFILIPPSENBARR/Documents/dev/logica_profedu",
-      "program": "c:/Users/EDUARDOFILIPPSENBARR/Documents/dev/logica_profedu/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/home/profefbarreto/dev/logica_profedu",
+      "program": "/home/profefbarreto/dev/logica_profedu/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
