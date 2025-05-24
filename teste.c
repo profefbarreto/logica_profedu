@@ -2,13 +2,15 @@
 
 int main(){
 
-    int num1 = 5;
-    float num2 = 9.59;
-    double num3 = 3.78;
+    int myInt;
+    float myFloat;
+    double myDouble;
+    char myChar;
 
-    printf("%d", num1);
-    printf("\n%.2f", num2);
-    printf("\n%.2lf", num3);
+    printf("%lu\n", sizeof(myInt));
+    printf("%lu\n", sizeof(myFloat));
+    printf("%lu\n", sizeof(myDouble));
+    printf("%lu\n", sizeof(myChar)); 
 
     return 0;
 }
