@@ -2,15 +2,24 @@
 
 int main(){
 
-    int idade;
+    int n1, n2, n3;
+    double media;
 
-    std::cout<<"Digite sua idade: "<<std::endl;
-    std::cin>>idade;
+    std::cout<<"Digite a nota 1: "<<std::endl;
+    std::cin>>n1;
+    std::cout<<"Digite a nota 2: "<<std::endl;
+    std::cin>>n2;
+    std::cout<<"Digite a nota 3: "<<std::endl;
+    std::cin>>n3;
 
-    if(idade >= 18){
-        std::cout<<"Você é maior de idade!"<<std::endl;
+    media = (n1 + n2 + n3)/3;
+
+    if(media >= 8){
+        std::cout<<"Aprovado!"<<std::endl;
+    }else if(media >= 6){
+        std::cout<<"Recuperação!"<<std::endl;
     }else{
-        std::cout<<"Você é menor de idade!"<<std::endl;
+        std::cout<<"Reprovado!"<<std::endl;
     }
 
     return 0;
