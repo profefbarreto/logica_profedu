@@ -2,11 +2,13 @@
 
 int main(){
 
-    int itens = 50;
-    float precoPorItem = 7.89;
-    float precoTotal = itens * precoPorItem;
+    const int hora = 60;
+    int minutos = 140;
+    int total = minutos / hora;
 
-    printf("\nO valor total é R$ %.2f", precoTotal);
+    printf("\n%d", total);
+
+    
 
 
     return 0;
