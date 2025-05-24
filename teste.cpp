@@ -1,11 +1,13 @@
 #include<iostream>
+#include<cmath>
 
-// omitindo o - using namespace std;
+
 
 int main(){
 
-    std::cout<<std::max(5, 10)<<std::endl;    
-    std::cout<<std::min(2, 6)<<std::endl;
+    std::cout<<sqrt(64)<<std::endl;
+    std::cout<<round(3.6)<<std::endl;
+    std::cout<<log(2)<<std::endl;
 
     return 0;
 }
