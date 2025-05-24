@@ -2,15 +2,12 @@
 
 int main(){
 
-    int myInt;
-    float myFloat;
-    double myDouble;
-    char myChar;
+    int itens = 50;
+    float precoPorItem = 7.89;
+    float precoTotal = itens * precoPorItem;
 
-    printf("%lu\n", sizeof(myInt));
-    printf("%lu\n", sizeof(myFloat));
-    printf("%lu\n", sizeof(myDouble));
-    printf("%lu\n", sizeof(myChar)); 
+    printf("\nO valor total é R$ %.2f", precoTotal);
+
 
     return 0;
 }
