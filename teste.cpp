@@ -1,13 +1,12 @@
 #include<iostream>
-#include<cmath>
-
-
 
 int main(){
 
-    std::cout<<sqrt(64)<<std::endl;
-    std::cout<<round(3.6)<<std::endl;
-    std::cout<<log(2)<<std::endl;
+    if(4 > 2){
+        std::cout<<"Sim"<<std::endl;
+    }else{
+        std::cout<<"Não!"<<std::endl;
+    }
 
     return 0;
 }
