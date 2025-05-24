@@ -3,12 +3,9 @@
 int main(){
 
     int meuNumero = 5;
-    float outroNumero = 9.99;
-    char meuChar = 'E';
+    meuNumero = 2;
 
     printf("%d", meuNumero);
-    printf("\n%f", outroNumero);
-    printf("\n%c", meuChar);
 
     return 0;
 }
