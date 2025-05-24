@@ -11,7 +11,7 @@ int main(){
     cin>>palavra;
 
     cout<<"Quantos caracteres tem essa palavra? \n";
-    cout<<palavra.length();
+    cout<<palavra[0];
     cout<<"\n";
 
     return 0;
