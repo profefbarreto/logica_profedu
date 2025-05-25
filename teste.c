@@ -2,14 +2,12 @@
 
 int main(){
 
-    const int hora = 60;
-    int minutos = 140;
-    int total = minutos / hora;
+   char nome[50];
 
-    printf("\n%d", total);
+   printf("Digite seu nome: ");
+   scanf("%s", nome);
 
-    
-
+   printf("Seu nome é %s\n", nome);
 
     return 0;
 }
