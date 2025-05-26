@@ -2,13 +2,15 @@
 
 int main() {
     
-    int i = 0;
+    int contagem = 3;
 
-    do{
-        printf("\n%d", i);
-        i++;
+    while(contagem > 0){
+        printf("%d\n", contagem);
+        contagem--;
     }
-    while(i < 5);
+
+    printf("Feliz ano novo!!");
+    printf("\n");
 
     return 0;
 }
