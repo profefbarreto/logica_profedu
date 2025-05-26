@@ -2,15 +2,18 @@
 
 int main() {
     
-    int contagem = 3;
+    int numeros = 12345;
 
-    while(contagem > 0){
-        printf("%d\n", contagem);
-        contagem--;
+    int revnumeros = 0;
+
+    while(numeros){
+
+        revnumeros = revnumeros * 10 + numeros % 10;
+
+        numeros /= 10;
     }
 
-    printf("Feliz ano novo!!");
-    printf("\n");
+    printf("%d", revnumeros);
 
     return 0;
 }
