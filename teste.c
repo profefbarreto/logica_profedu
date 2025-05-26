@@ -2,18 +2,11 @@
 
 int main() {
     
-    int numeros = 12345;
+    int num1 = 100 + 50;
+    int num2 = num1 + 250;
+    int num3 = num2 + num2;
 
-    int revnumeros = 0;
-
-    while(numeros){
-
-        revnumeros = revnumeros * 10 + numeros % 10;
-
-        numeros /= 10;
-    }
-
-    printf("%d", revnumeros);
+    printf("%d", num3);
 
     return 0;
 }
