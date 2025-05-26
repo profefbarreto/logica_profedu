@@ -2,13 +2,16 @@
 
 int main() {
     
-    int num = 10;
-    float calc;
+    int num;
 
-    calc = 10 % 3;
+    printf("Digite um número: ");
+    scanf("%d", &num);
 
-
-    printf("%f", calc);
+    if(num % 2 == 0){
+        printf("O número digitado %d é par!", num);
+    }else{
+        printf("O número digitado %d é ímpar!", num);
+    }
 
     return 0;
 }
