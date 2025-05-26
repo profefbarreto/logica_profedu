@@ -1,13 +1,17 @@
-#include<stdio.h>
+#include <stdio.h> 
 
-int main(){
+int main() {
+    
+    char nome[50];
+    int idade;
 
-   char nome[50];
+    printf("Digite o nome: ");
+    scanf("%s", &nome);
 
-   printf("Digite seu nome: ");
-   scanf("%s", nome);
+    printf("Digite a idade: ");
+    scanf("%d", &idade);
 
-   printf("Seu nome é %s\n", nome);
+    printf("O nome é %s e tem %d anos. ", nome, idade);
 
     return 0;
 }
