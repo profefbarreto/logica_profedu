@@ -2,35 +2,29 @@
 
 int main() {
     
-    int dia;
+    int mes;
 
-    printf("Qual dia da semana você quer: ");
-    scanf("%d", &dia);
+    printf("Digite um mês: ");
+    scanf("%d", &mes);
 
-    switch(dia){
-        case 1:
-            printf("Domingo!");
+    switch(mes){
+        case 1: 
+            printf("Você escolheu Janeiro.");
         break;
         case 2:
-            printf("Segunda-feira!");
+            printf("Você escolheu Fevereiro.");
         break;
         case 3:
-            printf("Terça-feira!");
+            printf("Você escolheu Março.");
         break;
         case 4:
-            printf("Quarta-feira!");
+            printf("Você escolheu Maio.");
         break;
-        case 5:
-            printf("Quinta-feira!");
-        break;
-        case 6:
-            printf("Sexta-feira!");
-        break;
-        case 7:
-            printf("Sábado!");
-        break;
+
+        //Seguindo essa lógica, vamos completar o código??
+
         default:
-            printf("Nenhuma opção válida!");
+            printf("Nenhuma opção válida!!");
         break;
     }
 
