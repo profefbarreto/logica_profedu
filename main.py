@@ -1,3 +1,7 @@
-a = 5
-print(a + 3)
-print(a - 2)
+num = int(input("Digite um número: "))
+
+if num % 2 == 0:
+    print("Esse número é par!")
+else:
+    print("Esse número é ímpar!")
+    
