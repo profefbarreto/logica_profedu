@@ -2,6 +2,7 @@
 
 int main() {
     
+    char meses[4][10] = {"Janeiro", "Fevereiro", "Março", "Abril"};
     int mes;
 
     printf("Digite um mês: ");
@@ -9,16 +10,16 @@ int main() {
 
     switch(mes){
         case 1: 
-            printf("Você escolheu Janeiro.");
+            printf("Você escolheu %s.", meses[mes-1]);
         break;
         case 2:
-            printf("Você escolheu Fevereiro.");
+            printf("Você escolheu %s.", meses[mes-1]);
         break;
         case 3:
-            printf("Você escolheu Março.");
+            printf("Você escolheu %s.", meses[mes-1]);
         break;
         case 4:
-            printf("Você escolheu Maio.");
+            printf("Você escolheu %s.", meses[mes-1]);
         break;
 
         //Seguindo essa lógica, vamos completar o código??
