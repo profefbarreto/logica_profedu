@@ -4,10 +4,11 @@ int main() {
     
     int i = 0;
 
-    while(i < 5){
+    do{
         printf("\n%d", i);
         i++;
     }
+    while(i < 5);
 
     return 0;
 }
