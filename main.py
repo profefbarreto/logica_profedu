@@ -1,39 +1,26 @@
 class Pessoa:
     def __init__(self):
         self.nome = ""
-        self.idade = 0
-    
-    def coletar_dados_pessoa(self):
-        self.nome = input("Digite o nome da pessoa: ")
-        self.idade = int(input("Digite a idade da pessoa: "))
         
-    def apresentar(self):
-        prinf(f"Olá, meu nome é {self.nome} e eu tenho {self.idade} anos.")
-    
-class Funcionario(Pessoa):
-    
+    def coletar_nome_pessoa(self):
+        self.nome = input("Digite um nome: ")
+        
+    def apresentar_pessoa(self):
+        print(f"Seja bem-vindo {self.nome}!")
+        
+class Aluno(Pessoa):
     def __init__(self):
         super().__init__()
-        self.setor = ""
-    
-    def coletar_dados_funcionario(self):
-        self.setor = input("Digite o setor: ")
-    
-    def coletar_todos_os_dados(self):
-        print("--- Coletando dados da Pessoa ---")
-        super().coletar_dados_pessoa()
-        print("\n--- Coletando dados do Funcionário ---")
-        self.coletar_dados_funcionario()
+        self.curso = ""
         
-    def exibir_informacoes_completas(self):
-        print(f"Nome: {self.nome}.")
-        print(f"Idade: {self.idade} anos.")
-        print(f"Setor: {self.setor}.")    
+    def coletar_dados_aluno(self):
+        super().coletar_nome_pessoa()
+        self.curso = input("Digite o nome do curso: ")
         
-    def apresentar(self):
-        super().apresentar()
-        print(f"Eu trabalho no setor de {self.setor}.")
+    def apresentar_aluno(self):
+        super().apresentar_pessoa()
+        print(f"Espero que você goste do curso de {self.curso}.")
         
-meu_funcionario = Funcionario()
-meu_funcionario.coletar_dados_funcionario()
-meu_funcionario.exibir_informacoes_completas()
+a = Aluno()
+a.coletar_dados_aluno()
+a.apresentar_aluno()

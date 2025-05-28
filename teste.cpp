@@ -1,39 +1,34 @@
 #include<iostream>
 #include<string>
 
-class Segredo{
+class Produto{
     private:
     std::string nome;
-    int idade; 
+    double preco;
 
     public:
-
-    Segredo():nome{}, idade(0){}
+    Produto():nome{}, preco(0){}
 
     std::string getnome(){
         return nome;
     }
 
-    int getidade(){
-        return idade;
+    double getpreco(){
+        return preco;
     }
 
     void setnome(std::string n){
         nome = n;
     }
 
-    void setidade(int i){
-        idade = i;
+    void setpreco(int p){
+        preco = p;
     }
+
 };
 
 int main(){
 
-    Segredo obj1;
-    obj1.setnome("Carla");
-    obj1.setidade(40);
-
-    std::cout<<"Bem-vinda "<<obj1.getnome()<<std::endl;
 
     return 0;
 }
