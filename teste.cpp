@@ -1,26 +1,39 @@
 #include<iostream>
+#include<string>
+
+class Segredo{
+    private:
+    std::string nome;
+    int idade; 
+
+    public:
+
+    Segredo():nome{}, idade(0){}
+
+    std::string getnome(){
+        return nome;
+    }
+
+    int getidade(){
+        return idade;
+    }
+
+    void setnome(std::string n){
+        nome = n;
+    }
+
+    void setidade(int i){
+        idade = i;
+    }
+};
 
 int main(){
 
-    int n1, n2, n3;
-    double media;
+    Segredo obj1;
+    obj1.setnome("Carla");
+    obj1.setidade(40);
 
-    std::cout<<"Digite a nota 1: "<<std::endl;
-    std::cin>>n1;
-    std::cout<<"Digite a nota 2: "<<std::endl;
-    std::cin>>n2;
-    std::cout<<"Digite a nota 3: "<<std::endl;
-    std::cin>>n3;
-
-    media = (n1 + n2 + n3)/3;
-
-    if(media >= 8){
-        std::cout<<"Aprovado!"<<std::endl;
-    }else if(media >= 6){
-        std::cout<<"Recuperação!"<<std::endl;
-    }else{
-        std::cout<<"Reprovado!"<<std::endl;
-    }
+    std::cout<<"Bem-vinda "<<obj1.getnome()<<std::endl;
 
     return 0;
 }

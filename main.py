@@ -1,22 +1,39 @@
-numero_dia = int(input("Digite um valor para número da semana: "))
-
-def dia_da_semana(numero_dia):
-    if numero_dia == 1:
-        return "Domingo"
-    elif numero_dia == 2:
-        return "Segunda-feira"
-    elif numero_dia == 3:
-        return "Terça-feira"
-    elif numero_dia == 4:
-        return "Quarta-feira"
-    elif numero_dia == 5:
-        return "Quinta-feira"
-    elif numero_dia == 6:
-        return "Sexta-feira"
-    elif numero_dia == 7:
-        return "Sábado"
-    else:
-        return "Número inválido!"
+class Pessoa:
+    def __init__(self):
+        self.nome = ""
+        self.idade = 0
     
-
-print(f"Você escolheu {dia_da_semana(numero_dia)}!")
+    def coletar_dados_pessoa(self):
+        self.nome = input("Digite o nome da pessoa: ")
+        self.idade = int(input("Digite a idade da pessoa: "))
+        
+    def apresentar(self):
+        prinf(f"Olá, meu nome é {self.nome} e eu tenho {self.idade} anos.")
+    
+class Funcionario(Pessoa):
+    
+    def __init__(self):
+        super().__init__()
+        self.setor = ""
+    
+    def coletar_dados_funcionario(self):
+        self.setor = input("Digite o setor: ")
+    
+    def coletar_todos_os_dados(self):
+        print("--- Coletando dados da Pessoa ---")
+        super().coletar_dados_pessoa()
+        print("\n--- Coletando dados do Funcionário ---")
+        self.coletar_dados_funcionario()
+        
+    def exibir_informacoes_completas(self):
+        print(f"Nome: {self.nome}.")
+        print(f"Idade: {self.idade} anos.")
+        print(f"Setor: {self.setor}.")    
+        
+    def apresentar(self):
+        super().apresentar()
+        print(f"Eu trabalho no setor de {self.setor}.")
+        
+meu_funcionario = Funcionario()
+meu_funcionario.coletar_dados_funcionario()
+meu_funcionario.exibir_informacoes_completas()
