@@ -1,20 +1,21 @@
 #include<stdio.h>
 
-struct minhaEstrutura{
-    int num;
+struct Estrutura{
     char nome[20];
+    int idade;
 };
 
 int main(){
-    struct minhaEstrutura obj;
 
-    printf("Digite o seu nome: ");
+    struct Estrutura obj;
+    
+    printf("Digite seu nome: ");
     scanf("%s", obj.nome);
 
-    printf("Digite um número: ");
-    scanf("%d", &obj.num);
+    printf("Digite sua idade: ");
+    scanf("%d", &obj.idade);
 
-    printf("Seu nome é %s e seu número escolhido é %d", obj.nome, obj.num);
+    printf("Seu nome é %s e você tem %d anos.", obj.nome, obj.idade);
     
 
     return 0;
