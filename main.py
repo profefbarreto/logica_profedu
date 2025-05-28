@@ -1,10 +1,22 @@
-a = 4
-b = int(input("Digite um valor para b: "))
+numero_dia = int(input("Digite um valor para número da semana: "))
 
-soma = a + b
+def dia_da_semana(numero_dia):
+    if numero_dia == 1:
+        return "Domingo"
+    elif numero_dia == 2:
+        return "Segunda-feira"
+    elif numero_dia == 3:
+        return "Terça-feira"
+    elif numero_dia == 4:
+        return "Quarta-feira"
+    elif numero_dia == 5:
+        return "Quinta-feira"
+    elif numero_dia == 6:
+        return "Sexta-feira"
+    elif numero_dia == 7:
+        return "Sábado"
+    else:
+        return "Número inválido!"
+    
 
-nome = "Eduardo"
-sobrenome = str(input("Digite seu sobrenome: "))
-
-print(f"Seu nome é {nome} e seu sobrenome é {sobrenome}")
-print(f"A soma é de {soma}")
+print(f"Você escolheu {dia_da_semana(numero_dia)}!")
