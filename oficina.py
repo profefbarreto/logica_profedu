@@ -1,5 +1,4 @@
-nome = "Eduardo"
-mensagem1 = "Olá meu nome é"
-mensagem2 = "e estou muito feliz de estar participando desta oficina!"
+a = 4
+b = a
 
-print(f"{mensagem1} {nome} {mensagem2}")
+print(f"O valor de b é {b}!")
