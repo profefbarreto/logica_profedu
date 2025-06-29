@@ -1,10 +1,6 @@
-a = 5
-b = 3
+idade = int(input("Digite aqui sua idade: "))
 
-print(a + 2 <= b)
-
-#você pode usar >=
-# <, <=, ==, !=
-
-
-
+if idade >= 18:
+    print(f"Você tem {idade} anos e é maior de idade!")
+else:
+    print(f"Você tem {idade} anos e é menor de idade!")
