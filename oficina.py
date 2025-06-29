@@ -1,1 +1,3 @@
-print("Teste")
+nome = "Eduardo"
+
+print("Olá ", nome)
