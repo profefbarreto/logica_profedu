@@ -1,4 +1,6 @@
 a = 4
 b = a
 
-print(f"O valor de b é {b}!")
+c = b + b
+
+print(f"O valor de c é {c}!")
