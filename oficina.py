@@ -1,8 +1,5 @@
-a = int(input("Digite um valor para a: "))
-b = int(input("Digite um valor para b: "))
+a = 5
+b = 3
 
-soma = (a + b)*2
+print(a > b)
 
-#cuidado com essa resposta
-
-print(f"O resultado é {soma}")
