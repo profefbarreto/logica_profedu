@@ -1,6 +1,6 @@
 a = 4
-b = a
+b = 3
 
-c = b + b
+soma = a + b
 
-print(f"O valor de c é {c}!")
+print(f"O resultado de {a} + {b} = {soma}!")
