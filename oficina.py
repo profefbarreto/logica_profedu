@@ -1,6 +1,6 @@
-idade = int(input("Digite aqui sua idade: "))
 
-if idade >= 18:
-    print(f"Você tem {idade} anos e é maior de idade!")
-else:
-    print(f"Você tem {idade} anos e é menor de idade!")
+
+tabuada = [1,2,3,4,5,6,7,8,9,10]
+
+for x in tabuada:
+    print(x)
