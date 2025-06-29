@@ -29,6 +29,11 @@ class Produto{
 
 int main(){
 
+    Produto obj;
+    obj.setnome("Arroz");
+    obj.setpreco(6.99);
+
+    std::cout<<obj.getnome()<<" "<<obj.getpreco()<<std::endl;
 
     return 0;
 }
