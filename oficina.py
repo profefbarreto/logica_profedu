@@ -1,3 +1,4 @@
 nome = "Eduardo"
+mensagem = "Oi, meu nome é "
 
-print("Olá ", nome)
+print(mensagem, nome)
