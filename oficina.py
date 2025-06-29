@@ -1,6 +1,6 @@
-a = 4
-b = 3
+a = input("Digite um valor para a: ")
+b = input("Digite um valor para b: ")
 
 soma = a + b
 
-print(f"O resultado de {a} + {b} = {soma}!")
+print(f"O resultado é {soma}")
